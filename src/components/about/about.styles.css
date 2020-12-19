@@ -1,0 +1,50 @@
+.about{
+    width: 70%;
+    margin: 100px auto;
+    margin-bottom: 50px;
+}
+.about-header{
+    display: flex;
+
+}
+.about-header h2{
+    width: 68%
+
+}
+.about-icons{
+    display: flex;
+    width: 32%;
+    color: #fff;
+    font-size: 26px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+@media screen and (max-width: 1000px){
+    .about-header h2{
+        width: 100%
+    
+    }
+    .about-header{
+        display: block;
+        
+    }.about-icons{
+        width: 70%;
+        height: 30px;
+    }
+}
+.my-image{
+    width: 70%;
+    height: 450px;
+    margin: 50px auto;
+    margin-bottom: 30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+@media screen and (max-width: 700px){
+    .my-image{
+        height: 300px;
+    }
+}

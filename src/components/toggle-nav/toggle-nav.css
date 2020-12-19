@@ -1,0 +1,50 @@
+.toggle-nav{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #101011;
+    top: 0px;
+    right: 0px;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+.exit-button{
+    width: 34px;
+    height: 40px;
+    cursor: pointer;
+    margin: 0px 0 20px 60px;
+
+}
+.bar{
+    width: 100%;
+    height: 6px;
+    border-radius: 5px;
+    background-color: #fff;
+    display: block;
+
+}
+.bar1{
+    transform: translateY(4px) rotate(45deg);
+}
+.bar3{
+    transform: translateY(-4px) rotate(-45deg);
+}
+.toggle-nav-center{
+    height: 70%;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.toggle-nav-center-maxi{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.toggle-nav-center a{
+    text-align: center;
+    line-height: 70px
+}

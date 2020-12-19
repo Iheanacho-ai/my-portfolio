@@ -1,0 +1,17 @@
+.projects{
+    padding-top: 50px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    color: #101011;
+}
+.title-projects{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.projects-carousel{
+    margin: 0 auto;
+    width: 50%;
+    height: 320px;
+    border: 1px solid black;
+
+}
