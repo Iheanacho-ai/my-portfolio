@@ -4,8 +4,8 @@ import './header.styles.css';
 
 
 class Header extends React.Component{
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
 
         this.state = {
             hidden : true
@@ -28,7 +28,7 @@ class Header extends React.Component{
                                 <span></span>
                             </div>
                         </div> 
-                        { hidden ? null : <ToggleNav tNav = {this.toggleNav} /> }
+                        { hidden ? null : <ToggleNav tNav = {this.toggleNav} show={!hidden}/> }
                 </div>
             </div>
         )
