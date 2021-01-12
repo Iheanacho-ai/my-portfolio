@@ -1,0 +1,14 @@
+.toolTip {
+    visibility: hidden;
+    position: absolute;
+    text-align: center;
+    width: 70px;
+    height: 26px;
+    color: #fff;
+    background-color: #101011;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -30px;
+
+}

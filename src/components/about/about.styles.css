@@ -20,7 +20,13 @@
     justify-content: center;
     justify-content: space-between;
 }
-@media screen and (max-width: 1000px){
+.about-icons a{
+    position: relative;
+}
+.about-icons a:hover .toolTip{
+    visibility: visible;
+}
+@media screen and (max-width: 750px){
     .about-header h2{
         width: 100%
     

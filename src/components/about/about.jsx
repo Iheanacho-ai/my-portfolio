@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import ToolTip from '../tooltip/tooltip';
 
 
 import myImage from '../../assets/my-image.jpg';
@@ -12,17 +12,24 @@ const About = () => (
             <h2>Amarachi Sharon Iheanacho</h2>
             <div className = 'about-icons' >
                 <a href="https://github.com/Iheanacho-ai">
-                <FontAwesomeIcon icon={['fab', 'github']} />
+                    <FontAwesomeIcon icon={['fab', 'github']} />
+                    <ToolTip name = {'Github'}/>
                 </a>
                 <a href="https://twitter.com/amaraIheanach0">
-                <FontAwesomeIcon icon={['fab', 'twitter']} /></a>
+                    <FontAwesomeIcon icon={['fab', 'twitter']} />
+                    <ToolTip name = {'Twitter'} />
+                </a>
                 <a href="">
-                <FontAwesomeIcon icon="envelope-open-text" />
+                    <FontAwesomeIcon icon="envelope-open-text" />
+                    <ToolTip name = {'Email'}/>
                 </a>
                 <a href="https://amara.hashnode.dev/">
-                <FontAwesomeIcon icon={['fab', 'blogger']} /></a>
+                    <FontAwesomeIcon icon={['fab', 'blogger']} />
+                    <ToolTip name = {'Blog'}/>
+                </a>
                 <a href="https://www.linkedin.com/in/amarachi-iheanacho-0126861a6/">
-                <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
+                    <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
+                    <ToolTip name = {'Linkedin'}/>
                 </a>
             </div>
        </div>
