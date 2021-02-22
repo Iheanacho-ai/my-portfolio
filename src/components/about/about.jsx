@@ -35,8 +35,7 @@ const About = () => (
        </div>
        <div className = 'about-paragrah'>
            <p>
-               I am frontend developer, with an eye for design. I build really responsive and performative websites for you and your brand. I write blog posts to explain things I have learnt or currently working on in my journey with tech.
-               I am proficient in HTML, CSS, JavaScript, React and React related libraries. I am currently studying Electrical and Electronics Engineering. 
+               Hey besties, I am a frontend developer, proficient in HTML, CSS, Bootstrap, Sass, JavaScript, Gatsbyjs, React(Redux, GraphQL).
            </p>
        </div>
        <div className = 'my-image' style={{backgroundImage:`url(${myImage})`}}/>

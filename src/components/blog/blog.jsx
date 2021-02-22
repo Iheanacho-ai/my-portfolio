@@ -7,7 +7,8 @@ import './blog.styles.css';
 const Blog = () => (
     <div className = 'blog' id = 'blog'>
         <h2>BLOG</h2>
-        <p className ='blog-link'>Follow my journey at <a href="www.amara.hashnode.dev">amara's blog</a> </p>
+        <p className ='blog-link'>Here is a preview of some of my works, to read more, check me out at <a href="www.amara.hashnode.dev">amara's blog</a> </p>
+        
         <div className = 'blog-container' >
             <div>
                 <div className ='blog-image'  style={{backgroundImage:`url(${reactHooks})`}} ></div>

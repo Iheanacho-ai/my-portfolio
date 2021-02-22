@@ -19,6 +19,13 @@
     font-size: 24px;
 
 }
+.icon-footer a{
+    position: relative;
+
+}
+.icon-footer a:hover .toolTip{
+    visibility: visible;
+}
 @media screen and (max-width: 1000px){
     .icon-footer{
         width: 40%;

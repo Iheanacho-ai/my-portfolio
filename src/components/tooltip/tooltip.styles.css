@@ -1,6 +1,6 @@
 .toolTip {
-    visibility: hidden;
     position: absolute;
+    visibility: hidden;
     text-align: center;
     width: 70px;
     height: 26px;
@@ -11,4 +11,7 @@
     left: 50%;
     margin-left: -30px;
 
+}
+.large{
+    width: 160px;
 }

@@ -10,6 +10,8 @@
 
 }
 .blog-link{
+    width: 80%;
+    margin: 0 auto;
     margin-bottom: 60px;
 }
 .blog-container{
@@ -56,7 +58,21 @@
         width: 80%;
         height:200px ;
         background-position: center;
-        background-size: coverP
+        background-size: cover;
+    }
+    
+
+}
+@media screen and (max-width: 760px){
+    
+    .blog-image{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .blog-preview{
+        padding: 5px 10px 44px;
+        text-align: center;
+    
     }
     
 
