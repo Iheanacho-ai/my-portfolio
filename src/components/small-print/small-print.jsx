@@ -39,7 +39,7 @@ const SmallPrint = () => (
             <div> 
                 <h5>Iheanacho Amarachi Sharon</h5>
                 <p>
-                    I am a web developer with an eye for design. I build responsive and really performative websites for you and your brand. I achieve this using HTML, CSS, Bootstrap, SASS, JavaScript, React, Redux, GraphQL, Gatsby.js. I also breakdown concepts on my blog, where I write about topics in tech, so anyone can follow up on my journey.
+                    I am a frontend developer with an eye for design. I build responsive and really performative websites for you and your brand. I achieve this using HTML, CSS, Bootstrap, SASS, JavaScript, React, Redux, GraphQL, Gatsby.js. I also breakdown concepts on my blog, where I write about topics in tech, so anyone can follow up on my journey.
                     I am currently studying Electrical and Electronics Engineering and open to job oppurtunites.          
                 </p>
             <button className = 'cv-button'>DOWNLOAD CV</button>

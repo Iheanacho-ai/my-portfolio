@@ -1,4 +1,6 @@
 import React from 'react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Crwn from '../../assets/crwn.PNG';
 import Tunes from '../../assets/tunes.PNG';
 import PortfolioPic from '../../assets/amarachi-portfolio.PNG';
@@ -82,15 +84,24 @@ class SimpleSlider extends React.Component{
           duration: 1.0,
           responsive: [
             {
-              // screens greater than >= 775px
-              breakpoint:1030,
+            // screens greater than >= 1020px
+            breakpoint:1030,
+            settings: {
+              // Set to `auto` and provide item width to adjust to viewport
+              slidesToShow: 2.5,
+              slidesToScroll: 2.5,
+            }
+          },
+            {
+              // screens greater than >= 1020px
+              breakpoint:1020,
               settings: {
                 // Set to `auto` and provide item width to adjust to viewport
-                slidesToShow: 2.5,
-                slidesToScroll: 2.5,
+                slidesToShow: 2,
+                slidesToScroll: 2,
               }
             },{
-              // screens greater than >= 1024px
+              // screens greater than >= 280px
               breakpoint: 280,
               settings: {
                 slidesToShow: 1,
