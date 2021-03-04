@@ -22,14 +22,14 @@ class SimpleSlider extends React.Component{
     this.state = {
       sections: [
         {
-          imageUrl: Crwn,
+          imageUrl: 'https://res.cloudinary.com/amarachi-2812/image/upload/v1614860389/crwn_j70tr9.png',
           name: 'Crwn-app',
           preview: 'An E-commerce app',
           stack: 'React, Redux-Saga, Styled-Components, Stripe, Firebase'
   
         },
         {
-          imageUrl: Tunes,
+          imageUrl:'https://res.cloudinary.com/amarachi-2812/image/upload/v1614860530/tunes_cc0ajr.png' ,
           name: 'tunes',
           preview: 'A Music Streaming Platform',
           stack: 'React, Redux-Saga, Styled-Components, Stripe, Firebase'
@@ -43,7 +43,7 @@ class SimpleSlider extends React.Component{
   
         },
         {
-          imageUrl: PortfolioPic,
+          imageUrl: 'https://res.cloudinary.com/amarachi-2812/image/upload/v1614860864/amarachi-portfolio_qnx3vt.png',
           name: "Amarachi's portfolio",
           preview: 'My portfolio website',
           stack: 'CSS, React Hooks'
@@ -57,7 +57,7 @@ class SimpleSlider extends React.Component{
   
         },
         {
-          imageUrl: ColorGame,
+          imageUrl: 'https://res.cloudinary.com/amarachi-2812/image/upload/v1614860640/color-game_ptwdas.png',
           name: 'Color Game',
           preview: 'A game for picking correctly color combinations ',
           stack: 'HTML, CSS, JavaScript'

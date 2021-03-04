@@ -64,7 +64,9 @@
 
 }
 @media screen and (max-width: 760px){
-    
+    .blog-container{
+        width: 90%;
+    }
     .blog-image{
         margin: 0 auto;
         width: 100%;
