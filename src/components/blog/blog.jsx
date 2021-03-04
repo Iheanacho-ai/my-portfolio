@@ -20,6 +20,7 @@ const Blog = () => {
                 duration: 1, 
                 autoAlpha: 1, 
                 ease: 'none',
+                delay: 0.3,
                 scrollTrigger: {
                     id: `section-${index-1}`,
                     trigger: el,

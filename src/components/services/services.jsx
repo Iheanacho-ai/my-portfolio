@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect} from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -19,7 +19,7 @@ const Services = () => {
         duration: 1,
         autoAlpha:0,
         ease: 'none',
-        delay: 1
+        delay: 0.3
       })   
       
       revealRefs.current.forEach((el, index) => {

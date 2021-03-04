@@ -1,6 +1,4 @@
 import React from 'react';
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Crwn from '../../assets/crwn.PNG';
 import Tunes from '../../assets/tunes.PNG';
 import PortfolioPic from '../../assets/amarachi-portfolio.PNG';
