@@ -1,4 +1,6 @@
 .small-print-container h2{
+    margin-top: 50px;
+    padding-top: 50px;
     text-align: center;
     color: #fff;
 }

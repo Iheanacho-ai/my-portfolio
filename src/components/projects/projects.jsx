@@ -25,14 +25,18 @@ class SimpleSlider extends React.Component{
           imageUrl: 'https://res.cloudinary.com/amarachi-2812/image/upload/v1614860389/crwn_j70tr9.png',
           name: 'Crwn-app',
           preview: 'An E-commerce app',
-          stack: 'React, Redux-Saga, Styled-Components, Stripe, Firebase'
+          stack: 'React, Redux-Saga, Styled-Components, Stripe, Firebase',
+          githubUrl: 'https://github.com/Iheanacho-ai/crwn-clothing',
+          linkUrl:'https://crwn-amara.herokuapp.com/'
   
         },
         {
           imageUrl:'https://res.cloudinary.com/amarachi-2812/image/upload/v1614860530/tunes_cc0ajr.png' ,
           name: 'tunes',
           preview: 'A Music Streaming Platform',
-          stack: 'React, Redux-Saga, Styled-Components, Stripe, Firebase'
+          stack: 'React, Redux-Saga, Styled-Components, Stripe, Firebase',
+          githubUrl: 'https://github.com/Iheanacho-ai/tunes',
+          linkUrl:'https://crwn-amara.herokuapp.com/'
   
         },
         {
@@ -46,21 +50,27 @@ class SimpleSlider extends React.Component{
           imageUrl: 'https://res.cloudinary.com/amarachi-2812/image/upload/v1614860864/amarachi-portfolio_qnx3vt.png',
           name: "Amarachi's portfolio",
           preview: 'My portfolio website',
-          stack: 'CSS, React Hooks'
+          stack: 'CSS, React Hooks',
+          githubUrl: 'https://github.com/Iheanacho-ai/my-portfolio',
+          linkUrl:'https://amaraiheanacho.netlify.app/'
   
         },
         {
           imageUrl: Crwn,
           name: 'Git Finder',
           preview: 'A website used for finding git users by their usernames',
-          stack: 'HTML, CSS, JavaScript, Api'
+          stack: 'HTML, CSS, JavaScript, Api',  
+          githubUrl: 'https://github.com/Iheanacho-ai/GitFinder.github.io',
+          linkUrl:'https://git-finder-work.netlify.app/'
   
         },
         {
           imageUrl: 'https://res.cloudinary.com/amarachi-2812/image/upload/v1614860640/color-game_ptwdas.png',
           name: 'Color Game',
           preview: 'A game for picking correctly color combinations ',
-          stack: 'HTML, CSS, JavaScript'
+          stack: 'HTML, CSS, JavaScript',         
+          githubUrl:'https://github.com/Iheanacho-ai/colorGame',
+          linkUrl:'https://amara-color-game.netlify.app/'
         }
   
       ]
@@ -69,7 +79,7 @@ class SimpleSlider extends React.Component{
   render(){
     return (
   
-      <div className='projects' >
+      <div className='projects' id='projects'  >
 
         <h2 className= 'projects-h2'> PROJECTS </h2>
 
@@ -117,15 +127,15 @@ class SimpleSlider extends React.Component{
   
         >
           {
-            this.state.sections.map(({imageUrl, name, preview, stack}) => (
+            this.state.sections.map(({imageUrl, name, preview, stack, githubUrl,linkUrl}) => (
               <div className = 'glider-div' style= {{ backgroundImage: `url(${imageUrl})`}}> 
                 <div className= 'projects-description'>
                   <div className = 'icons-glider-div'>
-                    <a href="https://github.com/Iheanacho-ai">
+                    <a href={githubUrl}>
                       <FontAwesomeIcon icon={['fab', 'github']} />
                     </a>
 
-                    <a href="https://github.com/Iheanacho-ai">
+                    <a href={linkUrl}>
                       <FontAwesomeIcon icon= 'chevron-circle-right' />
                     </a>
                   </div>

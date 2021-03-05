@@ -5,12 +5,12 @@ import ToolTip from '../tooltip/tooltip';
 import './small-print.styles.css';
 
 const SmallPrint = () => (
-    <div className = 'small-print-container'>
+    <div className = 'small-print-container' id='small-print'  >
         <h2>ABOUT ME</h2>
         <div className= 'small-print'>
             <div className= 'my-image-socials' >
                 <div className= 'small-print-icons'>
-                    <a href="">
+                    <a href="mailto:amarachi2812@gmail.com">
                         <FontAwesomeIcon icon="envelope-open-text" />
                         <ToolTip size = {'large'} name = {'Send me an email'}/>
                     </a>

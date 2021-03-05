@@ -47,8 +47,8 @@ const Services = () => {
     }
 
     return(
-        <div className = 'services'>
-            <h2>Services</h2>
+        <div className = 'services' id = 'services'>
+            <h2>SERVICES</h2>
             <p className ='services-p'>Here are some of the services I offer </p>
             <div ref = {servicesRef} className = 'services-container' >
                 <div  className = 'services-content' ref = { addToRefs }>

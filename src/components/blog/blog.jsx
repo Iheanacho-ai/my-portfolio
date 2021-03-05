@@ -3,7 +3,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import reactHooks from '../../assets/react-hooks.png';
 import regex from '../../assets/regex.png';
-import flexbox from '../../assets/flexbox.png'
+import flexbox from '../../assets/flexbox.png';
 import './blog.styles.css';
 
 const Blog = () => {
@@ -41,7 +41,7 @@ const Blog = () => {
     return(
         <div className = 'blog' id = 'blog'>
             <h2>BLOG</h2>
-            <p className ='blog-link'>Here is a preview of some of my works, to read more, check me out at <a href="www.amara.hashnode.dev">amara's blog</a> </p>
+            <p className ='blog-link'>Here is a preview of some of my works, to read more, check me out at <a href="https://amara.hashnode.dev/">amara's blog</a> </p>
             
             <div className = 'blog-container' >
                 <div ref= {addToRefs}>

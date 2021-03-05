@@ -8,37 +8,42 @@ import './about.styles.css';
 
 const About = () => (
     <div className = 'about' >
-        <div className = 'about-header'>
-            <h2>Amarachi Sharon Iheanacho</h2>
-            <div className = 'about-icons' >
-                <a href="https://github.com/Iheanacho-ai">
-                    <FontAwesomeIcon icon={['fab', 'github']} />
-                    <ToolTip name = {'Github'}/>
-                </a>
-                <a href="https://twitter.com/amaraIheanach0">
-                    <FontAwesomeIcon icon={['fab', 'twitter']} />
-                    <ToolTip name = {'Twitter'} />
-                </a>
-                <a href="">
-                    <FontAwesomeIcon icon="envelope-open-text" />
-                    <ToolTip name = {'Email'}/>
-                </a>
-                <a href="https://amara.hashnode.dev/">
-                    <FontAwesomeIcon icon={['fab', 'blogger']} />
-                    <ToolTip name = {'Blog'}/>
-                </a>
-                <a href="https://www.linkedin.com/in/amarachi-iheanacho-0126861a6/">
-                    <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
-                    <ToolTip name = {'Linkedin'}/>
-                </a>
+        <div className = 'aboutme-description'>
+            <div className = 'aboutme-description-container'>
+                <h3>Welcome !</h3>
+                <div className = 'aboutme-text'>
+                    <p>
+                    Amarachi is a frontend developer who loves Implementing web design and development principles to build stable software. Bringing mock-ups to life using HTML, CSS, JavaScript. Collaborating closely with the team to support projects during all phases of delivery.
+                    </p>
+                    
+                </div>
+                <div className = 'button-container'>
+                    <button><a href="#small-print">See Portfolio</a> </button>
+                    <button><a href="mailto:amarachi2812@gmail.com">Send an Email</a> </button>
+                </div>
             </div>
-       </div>
-       <div className = 'about-paragrah'>
-           <p>
-               Hey besties, I am a frontend developer, proficient in HTML, CSS, Bootstrap, Sass, JavaScript, Gatsbyjs, React(Redux, GraphQL).
-           </p>
-       </div>
-       <div className = 'my-image' style={{backgroundImage:`url(${myImage})`}}/>
+        </div>
+        <div className= 'my-preview'>
+            <div className= 'my-preview-container'>
+                <div className = 'my-preview-image' style={{backgroundImage:`url(${myImage})`}} ></div>
+                <h3>AMARACHI IHEANACHO</h3>
+                <hr className= 'my-preview-hr'/>
+                <p>Frontend Developer | Content Writer</p>
+            </div>
+            <div className = 'my-preview-icons'>
+                <div className = 'my-preview-icons-container'>
+                    <a href="https://github.com/Iheanacho-ai">
+                        <FontAwesomeIcon icon={['fab', 'github']} />
+                    </a>
+                    <a href="https://twitter.com/amaraIheanach0">
+                        <FontAwesomeIcon icon={['fab', 'twitter']} />
+                    </a>
+                    <a href="https://amara.hashnode.dev/">
+                        <FontAwesomeIcon icon={['fab', 'blogger']} />
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 )
 

@@ -5,9 +5,9 @@ import ToolTip from '../tooltip/tooltip';
 import './footer.styles.css';
 
 const Footer = () => (
-    <div className = 'footer'>
+    <div className = 'footer' id = 'contact'>
         <div className = 'icon-footer'>
-            <a href="">
+            <a href="mailto:amarachi2812@gmail.com">
                 <FontAwesomeIcon icon="envelope-open-text" />
                 <ToolTip size = {'large'} name = {'Send me an email'}/>
             

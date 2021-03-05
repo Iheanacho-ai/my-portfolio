@@ -8,11 +8,13 @@ h2{
     color: #fff;
     font-size: 32px;
     font-weight: 600;
+    font-family: 'Nunito', sans-serif;
 }
 p{
     line-height: 1.5;
     font-size: 15px;
     font-weight: 400;
     color: #777778;
+    font-family: 'Nunito', sans-serif;
   
 }
