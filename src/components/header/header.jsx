@@ -36,8 +36,8 @@ const Header = () => {
                     </a>
                     <a href="https://www.linkedin.com/in/amarachi-iheanacho-0126861a6/">
                         <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
-                        </a>
-                        </div>
+                    </a>
+                </div>
 
 
             </div>
