@@ -11,6 +11,7 @@ const Header = () => {
     const toggleMenuNav = () => setHidden(!hidden );
     
     
+    
     return(
         <div className='header' >
             <div className = 'header-container'>
@@ -35,24 +36,24 @@ const Header = () => {
                     </a>
                     <a href="https://www.linkedin.com/in/amarachi-iheanacho-0126861a6/">
                         <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
-                    </a>
-                </div>
+                        </a>
+                        </div>
 
-                {/* <div className ='header-mobile-container' >
-                    <div className = 'header-icon'><h2>AI.</h2> </div>
-                    <div>
-                        <div class="toggle-nav-left">
-                            <div class="nav-toggle-bar" onclick="toggleNav()">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
+
+            </div>
+
+            <div className ='header-mobile-container' >
+                <div className = 'header-mobile-icon'><h3>AI.</h3> </div>
+                <div>
+                    <div className="toggle-nav-div" onClick = { toggleMenuNav }>
+                        <div className={`${hidden ? null : 'cross-toggle-nav' } nav-toggle-bar`}>
+                            <span className = 'bar-1'></span>
+                            <span className = 'bar-2'></span>
+                            <span className = 'bar-3'></span>
                         </div>
                     </div>
-                </div> */}
-
-
-
+                </div>
+                { hidden ? null : <ToggleNav/> }
             </div>
         </div>
      )

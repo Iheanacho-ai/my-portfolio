@@ -2,7 +2,10 @@
     width: 100%;
     margin-top: 90px;
     margin-bottom: 100px;
+}
+.about-desktop{
     display: flex;
+
 }
 .aboutme-description{
     width: 50%;
@@ -11,6 +14,9 @@
     display: flex;
     text-align: center;
     color: #111;
+}
+.aboutme-mobile{
+    display: none;
 }
 .aboutme-description-container{
     width: 70%;
@@ -126,3 +132,98 @@
     font-size: 30px;
     color: #fff;
 }
+
+@media screen and (max-width: 800px){
+        
+    .about-desktop{
+        display: none;
+    }
+    .aboutme-mobile{
+        display: block;
+        margin-top: 100px;
+    }
+    .aboutme-image{
+        width: 150px;
+        height: 150px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+    .mobile-welcome{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 54.56px;
+        letter-spacing: 10px;
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+        color: #fff;
+        
+    }
+    .aboutme-mobile-name{
+        text-align: center;
+    }
+    .aboutme-mobile-name p{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 10px;
+        line-height: 21.90px;
+    }
+    .aboutme-mobile-name h3{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 27px;
+        letter-spacing: 10px;
+        color: #fff;
+    }
+    .aboutme-mobile-hr{
+        width: 55px;
+        height: 2.5px;
+        background-color: #fff;
+        margin: 0 auto;
+        margin-bottom: 40px;
+
+    }
+    .aboutme-mobile-text{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 10px;
+        letter-spacing: 3px;
+        text-align: center;
+        color: #fff;
+
+    }
+    .aboutme-mobile-icons{
+        width: 50%;
+        margin: 30px auto;
+        display: flex;
+        justify-content: space-between;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 750px){
+    
+    .aboutme-mobile{
+        height: calc(100vh - 550px);
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    
+    .aboutme-mobile{
+        height: calc(100vh - 200px);
+    }
+}
+@media screen and (max-width: 330px){
+    
+    .aboutme-mobile{
+        height: calc(100vh - 70px);
+    }
+}
+    

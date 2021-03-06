@@ -1,8 +1,5 @@
 import React from 'react';
 import Crwn from '../../assets/crwn.PNG';
-import Tunes from '../../assets/tunes.PNG';
-import PortfolioPic from '../../assets/amarachi-portfolio.PNG';
-import ColorGame from '../../assets/color-game.PNG';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './glider.css';
@@ -27,7 +24,8 @@ class SimpleSlider extends React.Component{
           preview: 'An E-commerce app',
           stack: 'React, Redux-Saga, Styled-Components, Stripe, Firebase',
           githubUrl: 'https://github.com/Iheanacho-ai/crwn-clothing',
-          linkUrl:'https://crwn-amara.herokuapp.com/'
+          linkUrl:'https://crwn-amara.herokuapp.com/',
+          id:1
   
         },
         {
@@ -36,14 +34,16 @@ class SimpleSlider extends React.Component{
           preview: 'A Music Streaming Platform',
           stack: 'React, Redux-Saga, Styled-Components, Stripe, Firebase',
           githubUrl: 'https://github.com/Iheanacho-ai/tunes',
-          linkUrl:'https://crwn-amara.herokuapp.com/'
+          linkUrl:'https://crwn-amara.herokuapp.com/',
+          id: 2
   
         },
         {
           imageUrl: Crwn,
           name: 'writer',
           preview: 'A simple blog',
-          stack: 'GatsbyJs, Styled-Components'
+          stack: 'GatsbyJs, Styled-Components',
+          id: 3
   
         },
         {
@@ -52,7 +52,8 @@ class SimpleSlider extends React.Component{
           preview: 'My portfolio website',
           stack: 'CSS, React Hooks',
           githubUrl: 'https://github.com/Iheanacho-ai/my-portfolio',
-          linkUrl:'https://amaraiheanacho.netlify.app/'
+          linkUrl:'https://amaraiheanacho.netlify.app/',
+          id: 4
   
         },
         {
@@ -61,7 +62,8 @@ class SimpleSlider extends React.Component{
           preview: 'A website used for finding git users by their usernames',
           stack: 'HTML, CSS, JavaScript, Api',  
           githubUrl: 'https://github.com/Iheanacho-ai/GitFinder.github.io',
-          linkUrl:'https://git-finder-work.netlify.app/'
+          linkUrl:'https://git-finder-work.netlify.app/',
+          id:5
   
         },
         {
@@ -70,7 +72,8 @@ class SimpleSlider extends React.Component{
           preview: 'A game for picking correctly color combinations ',
           stack: 'HTML, CSS, JavaScript',         
           githubUrl:'https://github.com/Iheanacho-ai/colorGame',
-          linkUrl:'https://amara-color-game.netlify.app/'
+          linkUrl:'https://amara-color-game.netlify.app/',
+          id: 6
         }
   
       ]
@@ -127,9 +130,9 @@ class SimpleSlider extends React.Component{
   
         >
           {
-            this.state.sections.map(({imageUrl, name, preview, stack, githubUrl,linkUrl}) => (
-              <div className = 'glider-div' style= {{ backgroundImage: `url(${imageUrl})`}}> 
-                <div className= 'projects-description'>
+            this.state.sections.map(({imageUrl, name, preview, stack, githubUrl,linkUrl, id}) => (
+              <div className = 'glider-div' style= {{ backgroundImage: `url(${imageUrl})`}} key= {id} > 
+                <div className= 'projects-description'  >
                   <div className = 'icons-glider-div'>
                     <a href={githubUrl}>
                       <FontAwesomeIcon icon={['fab', 'github']} />
