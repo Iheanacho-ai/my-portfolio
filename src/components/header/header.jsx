@@ -53,7 +53,7 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-                { hidden ? null : <ToggleNav/> }
+                { hidden ? null : <ToggleNav tNav = {toggleMenuNav}/> }
             </div>
         </div>
      )

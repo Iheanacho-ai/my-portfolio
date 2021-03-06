@@ -3,7 +3,7 @@ import './toggle-nav.css';
 
 const ToggleNav = ({ tNav }) => {
   return(  
-    <div className= 'toggle-menu'> 
+    <div className= 'toggle-menu' onClick= {tNav}> 
         <div><a href="#">AboutUs</a></div>
         <div><a href="#services">Services</a> </div>
         <div><a href="#projects">Projects</a> </div>
