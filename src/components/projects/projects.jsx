@@ -34,7 +34,7 @@ class SimpleSlider extends React.Component{
           preview: 'A Music Streaming Platform',
           stack: 'React, Redux-Saga, Styled-Components, Stripe, Firebase',
           githubUrl: 'https://github.com/Iheanacho-ai/tunes',
-          linkUrl:'https://crwn-amara.herokuapp.com/',
+          linkUrl:'https://amaratunes.netlify.app/',
           id: 2
   
         },
