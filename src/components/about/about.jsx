@@ -26,7 +26,7 @@ const About = () => (
             </div>
             <div className= 'my-preview'>
                 <div className= 'my-preview-container'>
-                    <div className = 'my-preview-image' style={{backgroundImage:`url(${myImage})`}} ></div>
+                    <div className = 'my-preview-image' style={{backgroundImage:`url(https://res.cloudinary.com/amarachi-2812/image/upload/v1618304425/20210314_034225_oh4ud0.jpg)`}} ></div>
                     <h3>AMARACHI IHEANACHO</h3>
                     <hr className= 'my-preview-hr'/>
                     <p>Frontend Developer | Content Writer</p>
@@ -49,7 +49,7 @@ const About = () => (
 
         <div className= 'aboutme-mobile'>
             <div className= 'aboutme-mobile-container' >
-                <div className= 'aboutme-image' style={{backgroundImage:`url(${myImage})`}} ></div>
+                <div className= 'aboutme-image' style={{backgroundImage:`url(https://res.cloudinary.com/amarachi-2812/image/upload/v1618304425/20210314_034225_oh4ud0.jpg)`}} ></div>
                 <h3 className= 'mobile-welcome'>Welcome !</h3>
                 <div className= 'aboutme-mobile-name'>
                     <p>I'm</p>

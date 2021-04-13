@@ -31,7 +31,7 @@ const SmallPrint = () => (
                         <ToolTip name = {'Linkedin'}/>
                     </a>
                 </div>
-                <div style={{backgroundImage:`url(${Me})`}} className = 'amara-image'></div>
+                <div style={{backgroundImage:`url(https://res.cloudinary.com/amarachi-2812/image/upload/v1618304850/956192FB-7BCA-4322-9BE8-ECE8D26B69EBL0001_eumwnj.jpg)`}} className = 'amara-image'></div>
             </div>
 
 
@@ -41,8 +41,8 @@ const SmallPrint = () => (
                 <p>
                     I am a frontend developer with an eye for design. I build responsive and really performative websites for you and your brand. I achieve this using HTML, CSS, Bootstrap, SASS, JavaScript, React, Redux, GraphQL, Gatsby.js. I also breakdown concepts on my blog, where I write about topics in tech, so anyone can follow up on my journey.
                     I am currently studying Electrical and Electronics Engineering and open to job oppurtunites.          
-                </p>
-            <button className = 'cv-button'>DOWNLOAD CV</button>
+                </p>                    
+                <button className = 'cv-button'><a href="https://drive.google.com/file/d/1HXT-VD3H8c-QHgcjmFAJD5XrRfjFyNIQ/view?usp=sharing">DOWNLOAD CV</a> </button>
             </div>
             </div>
         </div>
